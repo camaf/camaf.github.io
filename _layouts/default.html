@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+	 <link rel="stylesheet" href="/css/bootstrap.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+	<link rel="stylesheet" href="/css/style.css"> 
+	<link rel="stylesheet" href="/css/menubar.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <script type="text/javascript" src="/js/bootstrap.js"></script>
+<link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Tangerine">
+        <style>
+  body {
+    font-family: 'Tangerine', serif;
+    font-size:16px;
+       }
+</style>
+       
+    </head>
+    <body>
+
+	<div class="container-fluid">
+	<nav id="menu-wrap">
+<h1>Mafree Cameras</h1>
+<ul id="menu">
+	<li><a href="/">Home</a></li>
+	<li>
+		<a href="#">Products</a>
+		<ul>
+			<li><a href="/nikon/">Nikon</a></li>
+			<li><a href="/canon/">Canon</a></li>
+		
+		</ul>
+	</li>
+	<li><a href="#">Services</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact</a></li>
+</ul>
+
+
+</nav>
+<script>
+$(function() {
+  if ($.browser.msie && $.browser.version.substr(0,1)<7)
+  {
+	$('li').has('ul').mouseover(function(){
+		$(this).children('ul').css('visibility','visible');
+		}).mouseout(function(){
+		$(this).children('ul').css('visibility','hidden');
+		})
+  }
+}); 
+
+</script>
+
+<script>
+/* Mobile */
+$('#menu-wrap').prepend('<div id="menu-trigger">Menu</div>');		
+$("#menu-trigger").on("click", function(){
+	$("#menu").slideToggle();
+});
+
+</script>
+
+<script>
+// iPad
+var isiPad = navigator.userAgent.match(/iPad/i) != null;
+if (isiPad) $('#menu ul').addClass('no-transition');
+</script>
+      </div> 
+<div id="line">    
+<marquee>BUY WITH CONFIDENCE.</marquee>
+</div>
+        
+
+                {{ content }}
+
+
+<div class="container-fluid">
+             <div id="details"
+              
+                <p>
+                  162/164 D.N. Road,<br> Near Co-Optex,<br> 
+                  Fort, Mumbai-400 001
+                </p>
+             
+                <p>
+                  Tel no. 22069221 / 66347701 / 66395931<br>
+                  Mob.no. 9820019113 / 9702442237<br>
+                  email:mafsee_cameras@yahoo.com
+                </p>
+             </div>
+           
+          </div>
+        </div> <!-- /container -->
+<!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>       
+    
+    <script src="assets/js/holder/holder.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+---
+layout: default
+title: Your New Jekyll Site
+---
+
+<section class="content">
+  <section class="content">
+<div class="container-fluid">
+
+  <div class="row-fluid">
+        <div class="span2">
+          
+          <!--/.well -->
+        </div><!--/span-->
+     <div class="span10"> 
+
+      <table border="1">
+<tr>
+<th></th>
+<th><h1>Digital SLR Cameras</h1></th>
+</tr>
+<tr>
+<td><img src="/images/D3x.png"></td>
+<td><h2>D3x</h2><h3>the world is your studio</h3><h3>Body MRP: INR 524,950</H3>24.5-megapixels FX-format CMOS sensor.Two live View shooting modes.Fast, accurate 51-point AF system.low noise ISO sensitivity from 100 to 1600. 1,005-pixel 3D Color Matric Metering II with Scene Recognition System. 100% viewfinder coverage. Virtual Horizon graphic indicator.</td>
+</tr>
+<tr>
+<td><img src="/images/D4.jpg" height="200" width="200"></td>
+<td><h2>D4</h2><h3>All Edge, No Exceptions</h3><h3>Body MRP: INR 349,950</h3><p>16.2-megapixels CMOS sensor. Low noise ISO sensitivity from 100 to 12800. Continuous shooting upto 11fps. Appxs. 91000 pixels RGB sensor. Fast, accurate 51-point AF system with 3D Focus Tracking. Integrated High speed processer-Expeed 3. Full HD movie recording with audio monitoring and HDMI, creating true cinematic experiences. LAN support with remote access. In-camera Time Lapse photography with video. XQD card support for high speed</p></td>
+</tr>
+<td><img src="/images/D300.jpg" height="200" width="200"></td>
+<td><h2>D300s</h2><h3>Exceptional agility, Creative command</h3><h3>Body MRP INR 84,950</h3><p>12.3-megapixel DX-format CMOS sensor. Low noise ISO sensitivity from 200 to 3200. 1,500-pixel 3D Color Matrix Metering II. Dual memory card slots (Cf and SD).Continuous shooting upto 7fps. HD movie recording.Fast, accurate 51-point AF system. Dynamic Integrated Dual Reduction System.</p></td>
+</tr>
+<td><img src="/images/d800-top.jpg" height="200" width="200"></td><td><h2>D800E</h2><h3>Ultimate Image Details</h3><h3>Body MRP INR 184,950</h3>
+<p>36.3-megapixels fX-Format CMOS sensor. Fast, accurate 51-point AF system with 3D Focus Tracking. Integrated High speed processer - Expeed 3. Full HD movie recording with audio monitoring and HDMI output. Superior image quality and supports ISO sensitivity  from 100 to 6400. Specially built to create sharpest shots by disabling the aliasing and moire pattern reduction performed by the optical low-pass filter </td>
+</tr>
+
+<td><img src="/images/D7000.JPG" height="200" width="200"></td>
+<td><h2>D7000</h2><h3>Perfomance Concentrated</h3><h3>Body MRP INR 79950</h3> <p>16.2-megapixel Dx-format CMOS sensor. High speed 6 fps continuous shooting up to 100 shots. Ground-breaking 2,016-pixel RGB (3D Color matrix) sensor. EXPEED 2 image processing and 14-bit A/D conversion. Breaking full 1080p HD movies with full-time autofocus. Dynamic ISO range from 100 to 6400, Customizable 39-ppint AF system. Compact but durable with magnesium alloy top and rear covers, superior weather and dust seals </p></td>
+</tr>
+</table> 
+      
+         </div>         
+
+          
+        </div><!--/span-->
+      </div><!--/row-->
+</section>
