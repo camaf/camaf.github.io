@@ -18,6 +18,9 @@ body {
         margin: 0 auto;
         max-width: 1000px;
       }
+      #photo {
+      	width: 100%;
+      }
  
  h2, h3{
  	text-align: center;

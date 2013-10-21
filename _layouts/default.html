@@ -5,7 +5,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
 
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
@@ -146,6 +146,22 @@ if (isiPad) $('#menu ul').addClass('no-transition');
     
     <script src="assets/js/holder/holder.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
+<script src="/js/matchmedia.js"></script>
+<script src="/js/picturefill.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+
+  <script>
+    // Target your .container, .wrapper, .post, etc.
+    $("#featured-video").fitVids();
+  </script>
+
+    <script type="text/javascript">
+
+      $(".fittext").fittext(2.2);
+
+    </script>
     </body>
 </html>
