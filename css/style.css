@@ -26,6 +26,16 @@ body {
  	text-align: center;
  	color: #000000;
  }
+ #name {
+ 	background-color: #f2982f;
+ 	padding:23px;
+
+ }
+
+ #greeting {
+ 	
+ 	width: 100%;
+ }
 
 #line{
 	color: #ff0000;
