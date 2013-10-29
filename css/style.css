@@ -37,6 +37,17 @@ img.medium {
 	height:6.250em;
 }
 
+img.large {
+	width: 9.370em;
+	height: 6.250em
+} 
+
+img.xlarge {
+	width: 9.370em;
+	height: 7.500em;
+}
+
+
  h2, h3{
  	text-align: center;
  	color: #000000;
