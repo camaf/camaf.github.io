@@ -32,6 +32,11 @@ img.expand {
 	height: 5em;
 }
 
+img.medium {
+	width:6.250em;
+	height:6.250em;
+}
+
  h2, h3{
  	text-align: center;
  	color: #000000;
