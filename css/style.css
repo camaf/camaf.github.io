@@ -27,6 +27,11 @@ table{
       	width: 100%;
       }
  
+img.expand {
+	width:5em;
+	height: 5em;
+}
+
  h2, h3{
  	text-align: center;
  	color: #000000;
