@@ -1,15 +1,31 @@
-name: Your New Jekyll Site
+name: Mafsee Cameras
 markdown: redcarpet
 pygments: true
 
-permalink: /products/:title
-permalink: /services/:title
-permalink: /about/:title
-permalink: /contact/:title
+permalink: /nikon/:title
+permalink: /dualcamera/:title
+permalink: /fujifilm/:title
+permalink: /hdcamcorder/:title
+permalink: /professional/:title
+permalink: /shanghai/:title
+permalink: /stylishslim/:title
+permalink: /stylishzoom/:title
+permalink: /travelzoom/:title
+permalink: /tripods/:title
+permalink: /ultrazoom/:title
+permalink: /nikon/accessories/:title
+permalink: /nikon/coolpix/:title
+permalink: /nikon/digital/:title
+permalink: /nikon/flash/:title
+permalink: /nikon/lenses/:title
+permalink: /canon/digital/:title
+permalink: /canon/lenses/:title
+
+
 auto: true
 
 
-name: rbwarang
+name: camaf
 url: http://camaf/github.io
 description: Jekyll blog is ninja
 
