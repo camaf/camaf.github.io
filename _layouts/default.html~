@@ -5,8 +5,12 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
-
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0, user-scalable = no">
+        <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+        <meta name="description" content="Mafsee Cameras & Department Store offers the best brands of digital and dslr cameras, video cameras and lenses, visit the camera store at 162/164 D.N. Road, Near Mc Donald, Fort, Mumbai-400001 India" />
+        <meta name="keywords" content="Nikkon COOLPIX, Nikon D-SLR SERIES, Fujifilm Premium Compact Camera, Fujinon XF Lens Range, Canon extra lens, Canon small cameras, Canon EOS Double Zoom Camera, Canon DIGITAL TRINITY, Canon Lens, CANON SENSOR, CANON DIGIC 5 PROCESSOR, TRANSFER YOUR IMAGES AND VIDEOS WIRELESSLY, INTELLIGENT STILL SHOTS AND ROCK STEADY MOVIES, IXUS, 4GB SD CARD AND CARRY CASE, PowerShot SX-SERIES, PowerShot PROFESSIONAL COMPACT CAMERAS, Stylish portable printing, SONY EXMOR, SONY COMPACT HIGH ZOOM SERIES, SONY DSC,SONY SUPER HIGH ZOOM, SONY HANDYCAM,SONY DSLT, Nikkor lens, Nikon accessories, Panosonic ultra high zoom, panosonic traveler zoom, panasonic stylish zoom, panasonic stylish slim, panasonic HD camcorder, panasonic dual camera, sony alpha system, shanghai ring light, Venguard tripods, silk tripods " />
+        <meta name="abstract" content="digital dslr camera professional camera showroom in mumbai India" />
+        <meta name="author" content="swanpixels.com" />
         <!-- syntax highlighting CSS -->
         <link rel="stylesheet" href="/css/syntax.css">
 	 <link rel="stylesheet" href="/css/bootstrap.css">
@@ -20,8 +24,9 @@
 <link rel="stylesheet" type="text/css" href="http://font.googleapis.com/css?family=Tangerine">
         <style>
   body {
-    font-family: 'Tangerine', serif;
-    font-size:16px;
+    
+    font-family: 'Tangerine', sans-serif;
+    font-size:1em;
        }
 </style>
        
@@ -31,49 +36,71 @@
 	<div class="container-fluid">
 	<nav id="menu-wrap">
     <div class="row-fluid">
-        <div class="span9">
-        <p><img src="/images/mafsee.jpg"> </p> 
-          
-        </div>
+      
+    
+<p></p>
 
-
-  <div class="span3">
-          
-<p><img src="/images/diwali.jpg"></p>
 </div>
 <div class="row-fluid">
   <div class="span12">
+    <img src="/images/heading.jpg" width="1000" height="200"></a>
+    <div id="line">    
+<marquee>BUY WITH CONFIDENCE. CUSTOMER SATISFACTION IS OUR ONLY MOTTO.
+</marquee>
+</div>
 <ul id="menu">
 	<li><a href="/">Home</a></li>
-	<li>
-		<a href="#">Products</a>
-		<ul>
-			<li><a href="/nikon/">Nikon</a></li>
-			<li><a href="/canon/">Canon</a></li>
-      <li><a href="#">Panasonic</a>
+  <li><a href="/nikon/">Nikon</a>
+    <ul>
+      <li><a href="/nikon/digital-slr-cameras/">Digital SLR Cameras</a></li>
+      <li><a href="/nikon/NIKKOR-lenses/">NIKKOR Lenses</a></li>
+      <li><a href="/nikon/flashes-speedlight/">Flashes (Speedlight)</a></li>
+      <li><a href="/nikon/accessories/">Accessories</a></li>
+      <li><a href="/nikon/coolpix/">Coolpix</a></li>
+    </ul>
+  </li>
+  <li><a href="/#/">Canon</a>
+    <ul>
+      <li><a href="/canon/digital-dslr-cameras/">Digital DSLR Cameras</a></li>
+      <li><a href="/canon/canon-lenses/">Canon Lenses</a></li>
+      <li><a href="/canon/canon-small-cameras/">Canon Small Cameras</a></li>
+    </ul>
+  </li>
+	<li><a href="#">Panasonic</a>
         <ul>
-          <li><a href="/ultrazoom/">Ultra High Zoom</a></li>
-          <li><a href="/travelzoom/">Traveler Zoom</a></li>
-          <li><a href="/stylishzoom/">Stylish Zoom</a></li>
-          <li><a href="/stylishslim">Stylish Slim</a></li>
-          <li><a href="/hdcamcorder">HD Camcorder</a></li>
-          <li><a href="/dualcamera">Dual Camera</a></li>
+          <li><a href="/panasonic-ultra-high-zoom/">Ultra High Zoom</a></li>
+          <li><a href="/panasonic-travel-zoom/">Traveler Zoom</a></li>
+          <li><a href="/panasonic-stylish-zoom/">Stylish Zoom</a></li>
+          <li><a href="/panasonic-stylish-slim/">Stylish Slim</a></li>
+          <li><a href="/panasonic-hd-camcorder/">HD Camcorder</a></li>
+          <li><a href="/panasonic-dual-camera/">Dual Camera</a></li>
         </ul>
-
       </li>
-		   <li><a href="/fujifilm/">Fujifilm</a></li>
-		</ul>
+	<li><a href="/fujifilm/">Fujifilm</a></li>
+  <li><a href="#">Sony</a>
+  <ul>
+          <li><a href="/sony-alpha-system/">&prop; System</a></li>
+          <li><a href="/sony-small-camera/">Sony Small Cameras</a></li>
+          <li><a href="/sony-professional-camera/">Professional Cameras</a></li>
+  </ul>
+  <li><a href="/shanghai-ring-light/">Shanghai ring light</a></li>
+
 	</li>
-	<li><a href="#">Services</a></li>
-	<li><a href="#">About</a></li>
-	<li><a href="#">Contact</a></li>
+    <li><a href="/tripods/">Tripods</a>
+    <ul>
+      <li><a href="/tripods/venguard/">Venguard Tripods</a></li>
+      <li><a href="/tripods/silk/"> Silk Tripods</a></li>
+
+
+    </li>
+	
 </ul>
 
 
 </nav>
 <script>
 $(function() {
-  if ($.browser.msie && $.browser.version.substr(0,1)<7)
+  if ($.browser.msie && $.rowser.version.substr(0,1)<7)
   {
 	$('li').has('ul').mouseover(function(){
 		$(this).children('ul').css('visibility','visible');
@@ -101,9 +128,8 @@ if (isiPad) $('#menu ul').addClass('no-transition');
 </script>
       </div> 
     </div>
-<div id="line">    
-<marquee>BUY WITH CONFIDENCE. ‘Customer satisfaction is our only motto’
-</marquee>
+
+</div>
 </div>
         
 
@@ -120,7 +146,7 @@ if (isiPad) $('#menu ul').addClass('no-transition');
              
                 <p>
                   Tel no. 22069221 / 66347701 / 66395931<br>
-                  Mob.no. 9820019113 / 9702442237<br>
+                  Mob.no. 9820019113 / 7738333346<br>
                   email:mafsee_cameras@yahoo.com
                 </p>
              </div>
@@ -146,6 +172,22 @@ if (isiPad) $('#menu ul').addClass('no-transition');
     
     <script src="assets/js/holder/holder.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 
+<script src="/js/matchmedia.js"></script>
+<script src="/js/picturefill.js"></script>
+<script src="/js/jquery.fitvids.js"></script>
+<script src="/js/jquery.fittext.js"></script>
+
+  <script>
+    // Target your .container, .wrapper, .post, etc.
+    $("#featured-video").fitVids();
+  </script>
+
+    <script type="text/javascript">
+
+      $(".fittext").fittext(2.2);
+
+    </script>
     </body>
 </html>
